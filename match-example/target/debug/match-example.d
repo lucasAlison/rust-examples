@@ -1,0 +1,1 @@
+/home/orsegups.com.br/lucas.alison/Documents/2k20/workspace/rust-examples/match-example/target/debug/match-example: /home/orsegups.com.br/lucas.alison/Documents/2k20/workspace/rust-examples/match-example/src/main.rs
