@@ -1,0 +1,4 @@
+[package]
+name = "tests"
+version = "0.1.0"
+authors = ["Lucas Alison de Lima <lucas.alison@orsegups.com.br>"]
