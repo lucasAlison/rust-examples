@@ -10,8 +10,8 @@ enum Color {
 fn main() {
     let color = Color::Red(25);
     match color {
-        Color::Red(b) | Color::Yellow(b) | Color::Blue(b) => print!("Cor primária. Alpha: {}%", b),
-        Color::Orange => println!("Laranja."),
-        _ => println!("Demais cores."),
+        Color::Red(b) | Color::Yellow(b) | Color::Blue(b) => print!("Primary color. Alpha: {}%", b),
+        Color::Orange => println!("Orange."),
+        _ => println!("too many colors."),
     }
 }
