@@ -10,8 +10,7 @@ struct Person {
 
 fn main() {
     let conn = Connection::connect("postgres://postgres:admin@172.17.0.2:5432/postgres", TlsMode::None).unwrap();
-    //conn.execute("DROP TABLE person", &[]).unwrap();
-    conn.execute("CREATE TABLE person (
+    conn.execute("CREATE TABLE IF NOT EXISTS person (
                     id  SERIAL PRIMARY KEY,
                     name    VARCHAR NOT NULL,
                     data    BYTEA
