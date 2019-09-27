@@ -1,2 +1,7 @@
 /target
 **/*.rs.bk
+
+
+.idea/
+
+aws-s3-rust-poc.iml
