@@ -1,0 +1,12 @@
+[package]
+name = "aws-s3-rust-poc"
+version = "0.1.0"
+authors = ["Lucas Alison de Lima <lucasalison.lima926@gmail.com.br>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aws-sdk-rust = "0.1.42"
+hyper = "0.12.35"
+url = "2.1.0"
