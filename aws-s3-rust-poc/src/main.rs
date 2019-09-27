@@ -1,6 +1,5 @@
 extern crate aws_sdk_rust;
-extern crate url;
-extern crate hyper;
+
 
 use aws_sdk_rust::aws::common::credentials::DefaultCredentialsProvider;
 use aws_sdk_rust::aws::common::region::Region;

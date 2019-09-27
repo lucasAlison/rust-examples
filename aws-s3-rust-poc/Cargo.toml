@@ -8,5 +8,3 @@ edition = "2018"
 
 [dependencies]
 aws-sdk-rust = "0.1.42"
-hyper = "0.12.35"
-url = "2.1.0"
